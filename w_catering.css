@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    margin: 0px 25px 0px;
+    padding: 0em 2em 0em;
+    display: inline-block;
+    white-space: nowrap;
+    box-shadow: #0d4888;
+    z-index: 10;
+    margin: 0 3px;
+    padding: 5px;
+    font-size: small;
+    background-color: white;
+    width: 100%;
+ 
+ }
+ 
+ #down-app {
+    background-color: rgb(238, 22, 22);
+    color: white;
+    display: block;
+    height: fit-content;
+    margin-left: 4em;
+    margin-top:2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+ }
+ 
+ #logo {
+    margin-top: 4px;
+    height: 35px;
+    width: auto;
+    padding-left: 6em;
+    padding-right: 9em;
+ }
+ 
+ .nav-item {
+    font-size: medium;
+    align-items: center;
+    display: flex;
+    font-weight: 550;
+ 
+ }
+ #nav-link{
+    color:white;
+ }
+ .breadcrumb-item{
+    font-size:large;
+ }
+ 
+ body {
+     margin: 15px; 
+    padding: 15px;
+ }
+#bday-img{
+    width: 99.3%;
+    height:auto;
+    position: relative;
+    margin: 2px 8px 2px;
+}
+.title{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top:35px;
+    padding-bottom: 0px;
+}
+.para{
+    text-align: center;
+    font-weight: bold;
+}
+.title1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:35px;
+    padding-bottom: 5px;
+    margin-left: 80px;
+
+}
+.para1{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 80px;
+}

@@ -1,0 +1,294 @@
+header {
+   /* margin: 0px 15px 0px;
+   padding: 0em 2em 0em; */
+   margin: 0;
+   padding: 0;
+   display: inline-block;
+   overflow-y: hidden;
+   white-space: nowrap;
+   box-shadow: #0d4888;
+   z-index: 10;
+   margin: 0 3px;
+   padding: 5px;
+   font-size: small;
+   background-color: white;
+   width: 100%;
+
+}
+
+#down-app {
+   background-color: rgb(238, 22, 22);
+   color: white;
+   display: block;
+   height: fit-content;
+   margin-left: 4em;
+}
+
+#logo {
+   margin-top: 4px;
+   height: 35px;
+   width: auto;
+   padding-left: 6em;
+   padding-right: 9em;
+}
+
+.nav-item {
+   font-size: medium;
+   align-items: center;
+   display: flex;
+   font-weight: 550;
+
+}
+
+body {
+   margin: 15px;
+   padding: 15px;
+}
+
+.card {
+   margin: 5px;
+   height: auto;
+}
+
+.card-body {
+   border: 1px black;
+   border-style: dotted;
+   align-items: center;
+
+}
+
+.container-fluid {
+   display: flex;
+   justify-content: center;
+   width: 30px;
+   height: 100px;
+   align-items: center;
+
+}
+
+.card-title {
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   font-weight: 700;
+   align-items: center;
+
+}
+
+.card-text {
+   text-align: center;
+   font-size: medium;
+   font-family: 'Courier New', Courier, monospace;
+   margin: 0;
+   padding: 0;
+   align-items: center;
+
+}
+
+#btn-explore {
+   border: none;
+   padding: 5px;
+   margin: 5px;
+   justify-content: center;
+   color: red;
+   display: flex;
+
+
+}
+
+.line {
+   width: 100%;
+   /* border:none; */
+   border-top: none;
+   border: 1px;
+   border-style: dotted;
+
+}
+
+#unlock {
+   background-image: url('header_bg.png');
+   background-repeat: no-repeat;
+   width: 100%;
+   max-height: 500px;
+   min-height: 100px;
+   height:auto;
+   overflow-y:auto;
+   background-size: auto;
+   background-position: right;
+   border: none;
+   background-color: rgb(21, 88, 177);
+   margin: 2px;
+   padding: 2px;
+}
+
+.heading {
+   padding-top: 0px;
+   margin-top: 1em;
+}
+
+.unlock {
+   position: sticky;
+   height: 280px;
+   width: 100%;
+   padding-top: 0em;
+   top: 0;
+   left: 0;
+   z-index: 999;
+   /* overflow: hidden; */
+}
+
+#app-downloader {
+   padding-top: 5%;
+   padding-left: 5%;
+   position: fixed center;
+   width: 90%;
+   height: 100%;
+   text-align: left;
+   background-color: transparent;
+   font-style: normal;
+}
+
+.d-grid {
+   height: auto;
+   width: 32.5%;
+   background-color: rgb(20, 185, 20);
+   display: cover;
+   margin: 10px 5px 10px;
+   padding: 7px;
+   border: black;
+   outline: none;
+}
+
+#order {
+   color: white;
+   width: auto;
+   outline: none;
+   border: none;
+   padding: 5px auto;
+   font-size: x-large;
+   /*display: inline-block; */
+   box-shadow: none;
+}
+
+.container {
+   margin: 0px;
+   padding: 0px;
+   background-image: url('new_app_img.png');
+   width: 100%;
+   height: 450px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   border: none;
+   background-color: rgb(207, 205, 205);
+
+}
+
+.app-download-wrapper {
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   text-align: right;
+   background-color: transparent;
+   font-family: 'Courier New', Courier, monospace;
+   font-style: oblique;
+   font-size: xx-large;
+}
+
+.app-download {
+   color: white;
+   font-size: 35px;
+   margin: .1em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding: 0px 10px 0px;
+}
+
+li {
+   background-color: transparent;
+   color: white;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   margin-top: auto;
+   position: inherit;
+
+}
+
+#p1 {
+   margin-top: 0.5px;
+   margin-bottom: 0.5px;
+   padding-left:2em;
+   font-size: 20px;
+   color: rgb(117, 152, 248);
+}
+
+/*.card{
+    width: max-content;
+    height:5%;
+    display: flex;
+}*/
+#higeneImage {
+   width: 28%;
+   height: auto;
+   position: relative;
+   margin: 2px 75px 5px;
+   padding: 10px;
+}
+
+.cell {
+   width: 33%;
+   height: 350px;
+   margin: 15px 15px;
+   overflow: hidden;
+   border-radius: 8px;
+
+}
+
+.cell img {
+   width: 100%;
+   height: 350px;
+}
+
+h3 {
+   color: red;
+   margin: 2px;
+   padding-top: 50px;
+   padding-bottom: 5px;
+}
+
+.descrip {
+   display: block;
+}
+
+.title {
+   color: rgb(21, 88, 177);
+   font-weight: 800;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.para {
+   font-size: large;
+   padding-left: 15px;
+   padding-right: 15px;
+   font-style: inherit;
+}
+
+#FAQ {
+   color: grey;
+   font-weight: 450;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.content.li {
+   font-style: normal;
+   margin: 2px;
+   padding: 2px;
+   font-size: medium;
+}
+
+.dropdown {
+   text-align: right;
+   justify-content: center;
+}

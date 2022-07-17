@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="giftcard.css" rel="stylesheet" class="css">
+
+  <title>giftcard</title>
+</head>
+<header style="padding-top: 0px; padding-bottom: 0px;">
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+    <div class="container-fluid" style="padding-top: 0px; padding-bottom: 0px;">
+
+      <div class="collapse navbar-collapse" id="navbarNav" style="    margin: 0px;
+                  padding: 0px">
+        <ul class="navbar-nav" style="padding-top:0px; padding-bottom:0px;">
+
+          <img srcset="dominos-logo.png 1x, dominos-logo@2x.png 2x, dominos-logo@3x.jpg 3x " src="dominos-logo.png"
+            height="1%;">
+
+          <ul class="nav justify-content inline" style="padding-top:0px; padding-bottom:0px;">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="menu.html"
+                style="color: white; padding-left:2px;"><b>OUR
+                  MENU&nbsp;|</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#" style="color: white; padding-left:2px;"><b>DOMINO'S
+                  STORE&nbsp;|</b></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#" style="color: white; padding-left:2px;"><b>GIFT
+                  CARD &nbsp;|</b></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#" style="color: white; padding-left:2px;"><b>CORPORATE
+                  ENQUIRY&nbsp;|</b></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#" style="color: white;"><b>&nbsp;CONTACT</b></a>
+            </li>
+            <div id="b1" style=" padding-left: 5px;">
+              <button type="button" class="btn bg-danger w-10" style=" color: white; display:inline-block;"><b>DOWNLOAD
+                  THE
+                  APP</b></button>
+
+              <button type="button" class="btn bg-danger w-10" style="color: white;"><b>ORDER ONLINE
+                  NOW</b></button>
+            </div>
+          </ul>
+      </div>
+    </div>
+    </ul>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light " id="nav2">
+    <div class="container-fluid" id="con2">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav w-100" id="navbar2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="giftcard.html" style="color:white;"><b>GIFT
+                CARD</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:white;"><b>CORPORATE ENQUIRY</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color:white;"><b>HOW TO REDEEM</b></a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <nav aria-label="breadcrumb " style="background:rgb(219, 217, 217);">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item "><a href="#" style="color:rgb(106, 106, 197);">Home</a></li>
+      <li class="breadcrumb-item "><a href="#" style="color:rgb(106, 106, 197);">Gift Voucher</a></li>
+      <li class="breadcrumb-item active" aria-current="page" style="color:rgb(106, 106, 197);">Gift Card</li>
+    </ol>
+  </nav>
+</header>
+
+<body>
+  <img src="giftcardbanner.png" alt="egift voucher" id="gift-img">
+
+  <div class="hero">
+    <div class="form-box">
+      <div class=" button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="active()"><b>Active</b></button>
+        <button type="button" class="toggle-btn" onclick="statment()"><b>A/C Statement</b></button>
+      </div>
+      <h2 id="activate">ACTIVATE YOUR CARD</h2>
+
+      <form id="active" class="input-group">
+        <input type="text" class="input-field" placeholder="Card Number" required id="cardnumber" value><br>
+        <input type="text" class="input-field" placeholder="Cardpin" required id="cardpin" value><br>
+        <input type="tel" class="input-field" placeholder="Mobile Number(max:10 digits)" name="phone" id="phone"
+          maxlength="10" required>
+        <div class="checkbox">
+          <input type="checkbox" class="check-box" required>i agree to the terms and conditions
+        </div>
+        <button type="submit" class="submit-btn"><b>Activate</b></button>
+      </form>
+
+      <form id="statment" class="input-group">
+        <input type="text" class="input-field" placeholder="Enter the Card Number" required id="cardnumber" value>
+        <div class="checkbox">
+          <input type="checkbox" class="check-box" required>i agree to the terms and conditions
+        </div>
+        <br><button type="submit" class="submit-btn"><b>View Statment</b></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    var x = document.getElementById("active");
+    var y = document.getElementById("statment");
+    var z = document.getElementById("btn");
+
+    function statment() {
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+    }
+    function active() {
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+    }
+
+  </script>
+</body>
+<footer>
+  <div id="TERMS">
+    <div class="dropdown w-100" style="width:100%; border-style:groove; border-color:white;">
+      <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+        aria-expanded="false" style="width:100%; color:white;">
+       <b>TERMS AND CONDITIONS</b> 
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdown" style=" width:100%;background-color: brown; padding:10px;">
+        <p class="para mb-0">Terms and Conditions<br>
+          1. For the first time purchase minimum value of load is INR 500 to maximum of INR 49,999/-
+          and in future, it can be reloaded in multiples of INR 100 to INR 49,999/-.<br>
+          2. This gift card is for multiple time use & any unused balance (Value) can be used again.<br>
+          3. No change or refund will be given but any remaining balance may be applied to future purchases.<br>
+          4. The amount in the gift card will expire in 1 year from the date of activation/re-load<br>.
+          5. No refund will be made for any lost gift cards and no revalidation is allowed for expired gift cards
+          balance.<br>
+          6. Maximum of 1 Gift Card can be used per order.<br>
+          7. For Balance/ Validity Enquiry: Log on to “Gift Card” section on www.dominos.co.in or SMS from your
+          registered mobile number DOM BAL <10 digit card no.> to 56767<br>
+            8. For enquiries or complaints, email at corporate.sales@jublfood.com.<br>
+            9. Jfl at its own discretion may withdraw issuance/redemption of vouchers, without any prior notice in this
+            regard.<br>
+            10. Jfl's maximum liability for any reason whatsoever shall not exceed the purchase value of the
+            voucher.<br>
+            11. Redemption will happen on mobile platforms i.e. Mobile APP, and Mobile Website (PWA). In restaurants
+            redemption will NOT be available.<br>
+            12. Any pre-order discount like EDV, CRM, Combos and any after order discount like Late or any specific
+            guarantee in place with Domino's will NOT be applicable.<br>
+            13. Remaining balance in case if the order value is more than voucher value can only be paid by cash. (No
+            other modes of payment are acceptable).<br>
+            14. Once Gift card has been purchased it is considered sold and cannot be cancelled, refunded or
+            exchanged.<br>
+            15. Domino’s Gift Card can be used to purchase any Domino’s product on Domino’s India Mobile App/PWA.<br>
+            16. No refund will be made for any lost Gift cards and no revalidation is allowed for expired gift cards
+            balance.
+        </p>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</html>
+
+<!--
+<script src="https://kit.fontawesome.com/1c99df2a99.js" crossorigin="anonymous"></script>
+    <title>Log into JobSearch</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>-->
