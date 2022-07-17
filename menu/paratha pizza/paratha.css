@@ -1,0 +1,84 @@
+
+.navbar {
+    background: #095c91;
+}
+
+#b1 {
+    height: 50px;
+    padding: 0;
+}
+#navbarNav{
+    font-size:medium;
+}
+#navbarNav1{
+    font-size: small;
+}
+#title1{
+    font-size: 38px;
+    font-family: 'Arial Narrow Bold';
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+    color:red;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.card-body{
+    background-color: rgb(240, 218, 218);
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 800;
+    padding-top: 2%;
+    color: red;
+    background-color: transparent;
+}
+
+.card-text {
+    padding-top: 1px;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+    background-color: transparent;
+}
+.container-fluid{
+     width:100px;
+    height: auto;
+    padding:auto;
+    display:flex;
+    background-color: transparent;
+}
+.card-img-top{
+    /* width:auto;
+    height:250px; */
+    padding:50px;
+    justify-content: center;
+}
+.title{
+    color:rgb(21, 88, 177);
+    font-weight:800;
+    padding-left:15px;
+    padding-right:15px;
+ }
+ .para{
+    font-size: large;
+    padding-left:15px;
+    padding-right:15px;
+    font-style:inherit;
+ }
+ .btn-class{
+    margin:2px;
+    padding: 2px;
+    justify-content: center;
+    display:flex;
+ }
+ #card-btn{
+    color:red;
+    margin: 2px;
+    padding: 2px;
+ }
+ #FAQ{
+    color:grey;
+    text-align:center;
+}

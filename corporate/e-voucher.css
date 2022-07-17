@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background: #095c91;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#navbarNav {
+    font-size: medium;
+
+}
+
+#nav2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    /* background-color:#095c91 ; */
+
+
+}
+
+#con2 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border: none;
+}
+
+#navbar2 {
+    padding: 0px;
+    margin: 0px;
+    background-color: #095c91;
+    font-size: small;
+    margin: 1%;
+    padding: 1%;
+}
+
+.row {
+    margin-left: 2em;
+    margin-right: 0em;
+    padding-top: 30px;
+    padding: 2px auto;
+}
+
+.card-title {
+    margin: 2em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.logo {
+    height: 4em;
+    margin-bottom: .1em;
+    margin-left: 100px;
+}
+
+.logo-title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card-text {
+    text-align: center;
+    margin: 1em;
+    margin-top: .5em;
+    padding: 1em;
+    font-size: large;
+}
+
+
+.inside-card {
+    background-color: rgb(252, 249, 249);
+}
+
+.corporate-email {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'proximaNova';
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 124.2%;
+    box-sizing: border-box;
+    background-color: transparent;
+    outline: 0;
+    text-decoration: none !important;
+    color: black;
+}
+
+#contact-text {
+    color: grey;
+
+}
+
+#contact {
+    border-top: black;
+    border-style: outset;
+    border-width: .1ch;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.card-text1 {
+    margin: 1em;
+    font-size: large;
+}
+
+.card-title1 {
+    margin: 1em;
+    margin-bottom: 0px;
+}
+
+.hero{
+    height: auto;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+}
+.form-box{
+    height:auto;
+    width: 370px;
+    position: relative;
+    /* margin: 6px auto; */
+    margin-left: 2%;
+    background-color: #e2e9ee;
+    padding:3px;
+    padding-right:0px;
+    padding-left:0px;
+
+}
+#form-btn{
+    background-color:#B03;
+    color:white;
+    border:black;
+    border-width: .2ch;
+    border-style: outset;
+    display: flex;
+    width:70%;
+    /* height: 20px; */
+    text-align: center;
+    margin:10px auto;
+    margin-left:65px auto;
+    padding: 5px 40px 5px;
+    padding-left:100px;
+    border-radius:20px;
+}
+#form{
+    left:1050px;
+}
+.form-floating{
+    width:100%;
+    height: fit-content;
+    padding:0px 12px 0px;
+}
+#floatingInput{
+    padding-bottom:20px auto;
+    padding-top:15px auto;
+}

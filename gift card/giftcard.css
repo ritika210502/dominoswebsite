@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background: #095c91;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#navbarNav {
+    font-size: medium;
+
+}
+
+#nav2 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    /* background-color:#095c91 ; */
+
+
+}
+
+#con2 {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border: none;
+}
+
+#navbar2 {
+    padding: 0px;
+    margin: 0px;
+    background-color: #095c91;
+    font-size: small;
+    margin: 1%;
+    padding: 1%;
+}
+
+#gift-img {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin: 1%;
+    padding: 1%;
+}
+
+
+#activate {
+    text-align: center;
+    color: #2c80b4;
+    margin: 1px;
+    padding: 1px;
+}
+
+.hero{
+    height: 100%;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute sticky;
+}
+.form-box{
+    height: 600px;
+    width: 470px;
+    position: relative;
+    margin:1% auto;
+    background-color: #e2e9ee;
+
+    padding:5px;
+    overflow:hidden;
+}
+.button-box{
+    margin:30px auto;
+    width:220px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    position: relative;
+    border-radius:30px;
+}
+.toggle-btn{
+    padding: 10px 10px 10px 8px;
+    cursor: pointer;
+    background:transparent;
+    border:0;
+    outline:none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left:0;
+    position:absolute;
+    width:130px;
+    height:100%;
+    background:linear-gradient(to right,#095c91,#fff);
+    background-color: #fff;
+    border-radius:30px;
+    transition: .5s;
+}
+
+ .input-group{ 
+    top:190px;
+    position: absolute;
+    width:280px;
+    padding:8px;
+    transition: .5s;
+
+}
+.input-field{
+    width:100%;
+    padding:10px 10px;
+    margin:5px 0;
+    border:1px solid #999;
+    outline:none;
+    background: #fff;
+
+}
+.submit-btn{
+    width:100%;
+    padding: 15px 20px;
+    cursor:pointer;
+    display:block;
+    margin: 10px;
+    background:linear-gradient(to right,#095c91,#ecedee);
+    border:0;
+    outline:none;
+}
+.check-box{
+    margin:10px 10px 10px 0;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+#active{
+    left:80px;
+}
+
+#statment{
+    left:470px;
+}
+#TERMS{
+background-color: rgb(173, 33, 33);
+width:100%;
+padding:10px;
+}
+.terms{
+    font-size: large;
+    font-family: sans-serif;
+    background-color: brown;
+    color:white;
+    margin: 0px;
+    border:none;
+}
+.para{
+    font-size: medium;
+    text-align:justify;
+    background-color: rgb(173, 33, 33);
+    /* background-color: brown; */
+    color:white;
+    border:white;
+    margin: 0px;
+    padding:0px;
+}
