@@ -36,13 +36,23 @@ header{
     outline: none;
     margin: 2%;
     padding: 2%;
+    text-align: center; 
+    padding-bottom:8px;
 }
 
-.card-title {
-    text-align: center;
-    justify-content: center;
+/* .card-title {
+    
     color: white;
     font-weight: 700;
+} */
+.card-title{
+    font-size:x-large;
+     font-weight:700px; 
+     font-family:'Times New Roman';
+     color:white;
+     text-align: center;
+    justify-content: center;
+   
 }
 
 .card-body {

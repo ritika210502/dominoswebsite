@@ -20,13 +20,9 @@
     background-position: center bottom;
     margin: 0px;
 }
-#s1{
-    color:white;
-    font-size:xx-large;
-    height: auto;
-    width:auto;
-    font-family:'Times New Roman';
-    font-weight: bold;
+.col-sm-6{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .card{
     background-color: transparent;

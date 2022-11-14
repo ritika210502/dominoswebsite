@@ -60,6 +60,18 @@
     text-align: center;
     background-color: transparent;
 }
+.btn-class{
+    margin:2px;
+    padding: 2px;
+    justify-content: center;
+    display:flex;
+ }
+ #orderid{
+    color:red;
+    margin: 2px;
+    padding: 2px;
+
+ }
 .container-fluid{
      width:100px;
     height: auto;

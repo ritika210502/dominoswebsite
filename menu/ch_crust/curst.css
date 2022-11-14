@@ -67,178 +67,20 @@
     padding-right:15px;
     font-style:inherit;
  }
+
  .btn-class{
     margin:2px;
     padding: 2px;
     justify-content: center;
     display:flex;
  }
- #card-btn{
+ #orderid{
     color:red;
     margin: 2px;
     padding: 2px;
+
  }
 #FAQ{
     color:grey;
     text-align:center;
 }
-
-
-
-
-/*{
-    padding:2px;
-    margin:2px;
-}
-
-.navbar {
-    background: #095c91;
-}
-
-#b1 {
-    height: 50px;
-    padding: 0;
-}
-#navbarNav{
-    font-size:medium;
-}
-#navbarNav1{
-    font-size: small;
-}
-#title {
-    font-size: 38px;
-    font-family:'Times New Roman';
-    font-weight: 800;
-    color:white;
-    text-align: center;
-    width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-.card-title {
-    padding-top: 2px;
-    text-align: center;
-    font-weight: 800;
-    color:red;
-    font-style: inherit;
-}
-
-.card-text {
-    padding-top: 1px;
-    font-size: medium;
-    font-weight: 500;
-    text-align: center;
-}
-
-.title{
-    color:rgb(21, 88, 177);
-    font-weight:800;
-    padding-left:15px;
-    padding-right:15px;
- }
- .para{
-    font-size: large;
-    padding-left:15px;
-    padding-right:15px;
-    font-style:inherit;
- }
-
-#FAQ{
-    color:rgb(230, 122, 122);
-    font-weight: 450;
-    padding-left:15px;
-    padding-right:15px;
-    text-align:center;
- }
- .content.li{
-    font-style: normal;
-    margin: 2px;
-    padding: 2px;
-    font-size: x-large;
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*{
-    padding:2px;
-    margin:2px;
-}
-
-.navbar {
-    background: #095c91;
-}
-
-#b1 {
-    height: 50px;
-    padding: 0;
-}
-#navbarNav{
-    font-size:medium;
-}
-#navbarNav1{
-    font-size: small;
-}
-
-#title {
-    font-size: 38px;
-    font-family:'Times New Roman';
-    font-weight: 800;
-    color:white;
-    text-align: center;
-    width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-.card-title {
-    padding-top: 2px;
-    text-align: center;
-    font-weight: 800;
-    color:red;
-    font-style: inherit;
-}
-
-.card-text {
-    padding-top: 1px;
-    font-size: medium;
-    font-weight: 500;
-    text-align: center;
-}
-
-.title{
-    color:rgb(21, 88, 177);
-    font-weight:800;
-    padding-left:15px;
-    padding-right:15px;
- }
- .para{
-    font-size: large;
-    padding-left:15px;
-    padding-right:15px;
-    font-style:inherit;
- }
-
-#FAQ{
-    color:rgb(230, 122, 122);
-    font-weight: 450;
-    padding-left:15px;
-    padding-right:15px;
-    text-align:center;
- }
- .content.li{
-    font-style: normal;
-    margin: 2px;
-    padding: 2px;
-    font-size: x-large;
- }*/

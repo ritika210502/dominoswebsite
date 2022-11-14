@@ -79,8 +79,9 @@
     justify-content: center;
     display:flex;
  }
- #card-btn{
+ #orderid{
     color:red;
     margin: 2px;
     padding: 2px;
+
  }

@@ -78,11 +78,13 @@
     justify-content: center;
     display:flex;
  }
- #card-btn{
+ #orderid{
     color:red;
     margin: 2px;
     padding: 2px;
+
  }
+ 
 #FAQ{
     color:rgb(230, 122, 122);
     font-weight: 450;
