@@ -108,10 +108,10 @@ body {
    background-image: url('header_bg.png');
    background-repeat: no-repeat;
    width: 100%;
-   max-height: 500px;
+   max-height: 300px;
    min-height: 100px;
    height:auto;
-   overflow-y:auto;
+   /* overflow-y:auto; */
    background-size: auto;
    background-position: right;
    border: none;
@@ -137,7 +137,7 @@ body {
 }
 
 #app-downloader {
-   padding-top: 5%;
+   /* padding-top: 5%; */
    padding-left: 5%;
    position: fixed center;
    width: 90%;
