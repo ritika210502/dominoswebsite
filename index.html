@@ -1,30 +1,402 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        ritz_Domino's Pizza-Order online
+    </title>
+    <link rel="icon" href="logo1.jpg">
 </head>
+<link rel="stylesheet" href="dominos.css">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<header>
+
+    <nav>
+        <ul class="nav justify-content inline ">
+
+            <img src="Logo.png" alt="logo" id="logo">
+            <li class="nav-item ">
+                <a class="nav-link " href="menu/menu.html">OUR MENU</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="domino's store/store.html">DOMINO'S STORES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gift card/gift.html">GIFT CARD</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="corporate/corporate.html">CORPORATE ENQUIRY</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact us/contact.html">CONTACT</a>
+            </li>
+
+            <button type="button" class="btn btn-lg" id="down-app">Download App</button>
+        </ul>
+    </nav>
+</header>
+
 <body>
-    <header>
-        <nav>
-            HOME
-            EDIT
-            SAVE
-            ABOUT
-        </nav>
-    </header>
-        <main>
-            <!--<p>this is main content</p>-->
-             <section>
-                <a href="http://codewithharry.com"target="_main">
-                    <img src="download/cwh.jfif" alt="harry's website" width="123">
-                </a>
-             </section>
-        </main>
-        <footer>
-            this is footer
-        </footer>
+
+    <div class="unlock">
+        <div id="unlock" style="margin-top:5px;">
+            <!-- <a href="zero-contact/zero.html"> <img src="header_bg.png" alt="header_bg img" id="unlock-img"></a> -->
+            <div id="app-downloader">
+                <p class="app-download"><b>Domino's online ordering</b></p>
+                <p id="p1">Yummy pizza delivery fast & fresh</p>
+
+                <div class="d-grid w-30" style="justify-content:center;">
+                    <a href="zero-contact/zero.html"> <button class="btn" id="order" type="button"><b>ORDER ONLINE
+                                NOW</b></button> </a>
+                </div>
+            </div>
+            <a href="zero-contact/zero.html"> <img src="banner_brand_20210922.jpg"
+                    alt="Food Delivery &amp; Order Pizza Online" id="higeneImage"></a>
+
+        </div>
+    </div>
+    <br><br>
+    <nav aria-label="breadcrumb" style="background-color:rgb(196, 196, 196);">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page" style="color:rgb(71, 125, 206);">Home</li>
+        </ol>
+    </nav>
+    <div class="heading" style="color:grey">
+        <h3><b>Coupons and Offers</b></h3>
+    </div>
+    <div class="main-carousel">
+        <div class="cell"><img src="amazon.jpg" active></div>
+        <div class="cell"><img src="Dominos_Mobi.jpg" active></div>
+        <div class="cell"><img src="Home_airtel.jpg" active></div>
+        <div class="cell"><img src="Home_au.jpg" active></div>
+        <div class="cell"><img src="Home_Freecharge.jpg" active></div>
+        <div class="cell"><img src="Home_Paytm.jpg" active></div>
+        <div class="cell"><img src="Home_payzapp.jpg"active></div>
+    </div>
+
+    <div class="explore" style="color:grey">
+        <h3><b>Explore</b></h3>
+    </div>
+
+    <div class="card-group">
+        <div class="card">
+            <div class="card-body">
+                <span class="container-fluid">
+                    <img srcset="menu.png 1x, menu@2x.png 2x, menu@3x.png 3x" src="menu.png" alt="explore Menu"></span>
+                <h5 class="card-title">OUR MENU</h5>
+                <p class="card-text">Explore our range of delicious Pizzas in 30minutes!</p>
+            </div>
+            <div class="line">
+                <a href="menu/menu.html" id="btn-explore">
+                    <input type="button" class="btn"><b>DISCOVER PIZZA</b></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <span class="container-fluid">
+                    <img srcset="store.png 1x, store@2x.png 2x, store@3x.png 3x" src="store.png"
+                        alt="store Locator"></span>
+                <h5 class="card-title">NEARBY STORE</h5>
+                <p class="card-text">Fina a Domino's Pizza restaurant near you</p>
+            </div>
+            <div class="line">
+                <a href="domino's store/store.html" id="btn-explore">
+                    <input type="button" class="btn"><b>FIND DOMINO'S
+                        STORE</b></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <span class="container-fluid">
+                    <img srcset="birthday.png 1x, birthday@2x.png 2x, birthday@3x.png 3x" src="birthday.png"
+                        alt="bday Party"></span>
+                <h5 class="card-title">BIRTHDAY PARTY</h5>
+                <p class="card-text">Celebrate joy of Birthday with Domino's Pizza</p>
+            </div>
+            <div class="line">
+
+                <a href="bday.html" id="btn-explore">
+                    <input type="button" class="btn"><b>BOOK NOW</b></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <span class="container-fluid">
+                    <img srcset=" catering.png 1x, catering@2x.png 2x, catering@3x.png 3x" src="catering.png"
+                        alt="bday Party"></span>
+                <h5 class="card-title">CATERING</h5>
+                <p class="card-text">Live Domino's Kitchen for Wedding/Corporate Events</p>
+            </div>
+            <div class="line">
+
+                <a href="w_catering.html" id="btn-explore">
+                    <input type="button" class="btn"><b>CATERING</b></a>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top:5em; margin-left: 0px; margin-right: 0px;">
+        <div class="app-download-wrapper">
+            <h3 class="app-download" style="color:red; font-size: xx-large;"><b>Unlock Exclusive Offers</b></h3>
+            <p>For lightning fast ordering</p>
+            <p> experience download the Domino's app</p>
+            <ul class="appdownload-img">
+                <li style="display:inline-block">
+                    <a href="https://apps.apple.com/in/app/id523106486?c=brand-home&pid=Brand-Home&shortlink=aa9c37d4">
+                        <img srcset="play_store.png 1x, play_store@2x.png 2x, play_store@3x.png 3x,"
+                            src="play_store.png" alt="google play store">
+                    </a>
+                </li>
+                <li style="display:inline-block">
+                    <a href="https://dominos.onelink.me/uM7R/aa9c37d4">
+                        <img srcset="app_store.png 1x, app_store@2x.png 2x, app_store@3x.png 3x" src="app_store.png"
+                            alt="apple app store">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="descrip">
+        <h3 class="title">Domino's Pizza: Delivering happiness<br><br></h3>
+        <p class="para">What’s better than having a crispy melty pizza, you ask?</span>
+        <p class="para">Having that crispy and melty pizza in the comfort of
+            your own home with the ones you love, we say.><br></span>
+
+        <p class="para">With Domino's it is always “Rishton ka time”. Whether it's a treat for your promotion, a
+            kid topping his class or winning the heart of your wife who is too tired to cook after a long day at
+            work! A cheesy
+            slice of the best pizza is all one needs to put things into perspective and start any celebration.
+            Plus, you do not even need to rush to the restaurant to have one now. A call, a few clicks on our
+            website
+            or a few touches on the mobile screen is all you have to do to have that tempting,
+            light-on-the-pocket pizza
+            at your doorstep.<br></p>
+        <p class="para">There is something for everyone here. The vegetarians, non-vegetarians, the sides’
+            lovers and also the ones who love to have something sweet by the time they reach the last bite of
+            the last slice of
+            pizza slice.</p>
+
+        <h3 class="title">What We Need - More Choice. More Fun.<br><br></h3>
+        <p class="para">No matter what the situation, pizza always helps. Especially a pizza that gives you the
+            freedom
+            to choose
+            your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black olives, fresh
+            tomato, red paprika, jalapeno, paneer tikka and extra cheese to non-veg toppings such as pepper barbeque
+            chicken, peri-peri chicken, grilled chicken rasher, chicken sausage or chicken tikka- the options are
+            almost
+            endless, anything and everything you can think of that too on top of the crust of your choice - New
+            hand-tossed crust, wheat thin crust, cheese burst crust, classic hand-tossed crust or a fresh pan pizza.
+            Because just like a pizza, Domino's understands you.<br>
+        </p>
+        <p class="para">And to shoo away those end-of-the-month blues while placing your order with our pizza
+            restaurant, check out
+            the everyday pizzas from pizza mania combos with everyday value offer of 2 pizzas starting at just ₹99
+            (regular size) and ₹199 (medium size) each.<br>
+        </p>
+        <h3 class="title">Franchise Information<br><br></h3>
+        <p class="para">Jubilant FoodWorks Limited is the Master Franchisee of Domino’s Pizza in India, Bangladesh,
+            Sri
+            Lanka and Nepal with sole and exclusive rights to own and operate Domino’s Pizza restaurants in these
+            territories. For any franchise-related queries, kindly email us directly at
+            dominos.franchise@jublfood.com
+            <br>
+        </p>
+        <p class="para">We have come across a few instances of fraudsters posing as Jubilant FoodWorks and asking
+            for
+            payment from gullible investors against the promise of a Domino’s franchise. We therefore caution and
+            urge
+            all interested parties to be careful and vigilant and interact only with the email id mentioned above.
+            Anyone dealing with such fraudsters shall be doing so on their own peril, risk and consequences.
+            <br>
+        </p>
+        <p class="para">Neither Jubilant FoodWorks nor its Directors/Officers shall be responsible for any loss,
+            harm,
+            damage or fraud that occurs or may occur or arise to any person who decides to access such fake
+            websites, or
+            deal with them.
+            <br>
+        </p>
+    </div>
+
+    <div id="FAQ">
+        <h2>FAQ - PEOPLE ALSO ASK</h2>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <b> Is Domino’s Free After 1 Hour?</b>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <div id="content">
+                <li style="color:black; width:100%; "> Yes,Dominos is free after 1 hour, subject to
+                    the applicable terms and conditions. During rush
+                    hours or the festive season, this offer may not apply. Ask the person taking the order about the
+                    same. If ordering online, you can call the outlet number displayed in the mobile app to know if
+                    you
+                    can get your order free if not delivered within 1 hour.</li>
+            </div>
+
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn dropdown-toggle w-100" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <b> How much is a 12-inch pizza from Domino's?</b>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+            <div id="content">
+                <li style="color:black;">The price of the pizza will depend on your pick of the pizza from the
+                    signature, supreme, or standard range. Every pizza baked at Domino’s contains fresh toppings,
+                    and the range of toppings varies from one pizza to another. To know how much a 12-inch pizza
+                    will cost, you can head to Domino’s official website or download the mobile app to check
+                    pizza-wise prices.
+                </li>
+            </div>
+
+        </ul>
+    </div>
+
+
+    <div class="dropdown">
+        <button class="btn btn dropdown-toggle w-100" type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <b> What is the most popular Domino's pizza?</b>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+            <div id="content">
+                <li style="color:black;">If you’ve had a Domino’s pizza before, you probably already know how
+                    delicious and fresh it tastes. While all the pizzas are equally delicious, people seem to love
+                    Domino’s Margherita pizza, Indi Tandoori Paneer pizza, Pepper Barbecue Chicken pizza, Chicken
+                    Dominator pizza, and Farmhouse pizza. As everyone has distinct taste preferences, you might like
+                    other pizzas more, and that’s alright, as every Domino’s pizza has a separate fan base of its
+                    own.
+                </li>
+            </div>
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn dropdown-toggle w-100" type="button" id="dropdownMenuButton5" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <b>Which is better: Domino's or Pizza Hut?</b>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+            <div id="content">
+                <li style="color:black;">A Domino’s pizza is always made using the freshest dough, toppings, pizza
+                    s
+                    auce, and special condiments. These elements together make Domino’s pizza the best pizzas in
+                    your city. Head to a Domino’s near me outlet today to try and experience what makes Domino’s
+                    pizza’s the best. If you cannot visit the outlet for any reason, place Domino’s online order and
+                    enjoy piping hot, freshly baked pizza at home.
+                </li>
+            </div>
+
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn dropdown-toggle w-100" type="button" id="dropdownMenuButton6" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <b> How does the Domino’s app work?</b>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+            <div id="content">
+                <li style="color:black;">First, you have to download the Domino’s app and create your account by
+                    providing the necessary details. Once you’re done, you can add your favourite pizzas, side dish
+                    items, desserts, and even beverages to the cart to place your order by simply making an online
+                    payment. After the order is successfully placed, a delivery executive would deliver your
+                    Domino’s pizza near me within 30-minutes or less.
+                </li>
+            </div>
+
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn dropdown-toggle w-100" type="button" id="dropdownMenuButton7" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <b>Which app is best for ordering pizza?</b>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton7">
+            <div id="content">
+                <li style="color:black;">If you want a seamless online pizza ordering experience, you should
+                    download and use the Domino’s app. Using this app, you can order your favorite pizza online
+                    within a few clicks. You can also pay securely or choose to pay cash for your order on delivery.
+                    The best part of ordering a pizza from the Domino’s app is that you get real-time order status,
+                    so you’re up-to-date about your order’s current status.
+
+
+                </li>
+            </div>
+
+        </ul>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn dropdown-toggle w-100" type="button" id="dropdownMenuButton8" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <b> Can I pay for Pizza online?</b>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton8">
+            <div id="content">
+                <li style="color:black;">Yes, you can pay for pizza online. Just download Domino's mobile app or
+                    head to our website's menu page to place your order online and make a secure online payment.
+                </li>
+            </div>
+
+        </ul>
+    </div>
+
+
+    <div class="dropdown">
+        <button class="btn btn dropdown-toggle w-100" type="button" id="dropdownMenuButton9" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <b> How do you order pizza at home?</b>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton9">
+            <div id="content">
+                <li style="color:black;">Domino's app makes it easier for everyone to order pizza online. You just
+                    have to download the Domino's app from the playstore or Apple store, create an account, and
+                    place your favorite order.
+                </li>
+            </div>
+
+        </ul>
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround: true,
+            freeScroll: true
+        });
+    </script>
+    <!-- <script>
+        document.getElementById("higeneImage").onclick = gotoPage(){
+            location.href="zero-contact.html";
+        }
+    </script> -->
+
+
 </body>
+
 </html>
